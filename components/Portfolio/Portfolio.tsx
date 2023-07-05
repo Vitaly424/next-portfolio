@@ -3,7 +3,7 @@ import { AnimatePresence } from "framer-motion";
 import MainTitle from "../MainTitle/MainTitle";
 import PortfolioTabControl from "./PortfolioTabControl";
 import PortfolioTabContent from "./PortfolioTabContent";
-import { useMediaQuery } from '../../source/portfolio-youtube/hooks';
+import { useMediaQuery } from '../../hooks';
 import { portfolioItems1, portfolioItems2, portfolioItems3, portfolioItems4, hiddenPortfolioItemsArray } from './portfolioTabContents';
 import styles from '../../styles/portfolio.module.scss';
 import PortfolioSlider from "./PortfolioSlider";

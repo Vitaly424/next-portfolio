@@ -3,7 +3,7 @@ import MainTitle from "../MainTitle/MainTitle";
 import SocialList from "./SocialList";
 import styles from '../../styles/contact.module.scss';
 import ContactForm from "./ContactForm";
-import { useMediaQuery } from "../../source/portfolio-youtube/hooks";
+import { useMediaQuery } from "../../hooks";
 
 const Contact = () => {
     const isMobile485 = useMediaQuery(485);

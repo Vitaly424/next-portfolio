@@ -1,4 +1,4 @@
-import { useMediaQuery } from '../../source/portfolio-youtube/hooks';
+import { useMediaQuery } from '../../hooks';
 const ArrowSvg = () => {
     const isMobile = useMediaQuery(800);
     const currentWidth = isMobile ? 54 : 80;
