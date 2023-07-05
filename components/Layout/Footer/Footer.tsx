@@ -1,11 +1,12 @@
 import Link from 'next/link';
-import Logo from '../../../source/portfolio-youtube/components/Logo/Logo';
+import Logo from '../../Logo/Logo';
 import SocialList from './SocialList';
-import { useMediaQuery } from '../../../source/portfolio-youtube/hooks';
+import { useMediaQuery } from '../../../hooks';
 import styles from '../../../styles/footer.module.scss';
 
 const Footer = () => {
     const isMobile725 = useMediaQuery(725);
+
 
     return (
         <footer className={styles.footer}>
