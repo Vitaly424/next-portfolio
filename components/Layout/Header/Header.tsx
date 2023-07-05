@@ -13,7 +13,7 @@ const Header = () => {
 
     const spy = true;
     const smooth = true;
-    const offset = 140;
+    const offset = 20;
     const duration = 500;
 
     const crrentMenuItemClass = isMobile ? stylesMenu.menu__item : stylesNavList.navlist__item
