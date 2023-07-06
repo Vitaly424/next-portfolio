@@ -17,7 +17,7 @@ const ContactForm = () => {
         e.preventDefault();
 
         setSpinner(true);
-        emailjs.sendForm('service_3lu2q0l', 'template_o8houg2', formRef.current, 'QxtdKirsWK2UEaLwI')
+        emailjs.sendForm( process.env.NEXT_PUBLIC_KEY_SERVICE_ID as string, process.env.NEXT_PUBLIC_KEY_TEMPLATE_ID as string, formRef.current, process.env.NEXT_PUBLIC_KEY as string)
         .then(result => {
             setSpinner(false);
             toast(`Данные отправлены ${result.text}`);
@@ -48,7 +48,7 @@ const ContactForm = () => {
                 text="Сообщение"
                 placeholder="Ваше сообщение"
                 type="text"
-                name='company'
+                name='messages'
             />
 
             <ContactInput

@@ -10,7 +10,7 @@ const SocialList = () => (
         </li>
 
         <li className={styles.social__list__item}>
-            <a href="vitalij.baev.98@bk.ru" className={styles.social__list__item__link}>
+            <a href="mailto:vitalij.baev.98@bk.ru" className={styles.social__list__item__link}>
                 <span className={styles.social__list__item__link__text}>Почта: vitalij.baev.98@bk.ru</span>
             </a>
         </li>

@@ -80,14 +80,14 @@ const Portfolio = () => {
                         {hiddenPortfolioItems && <PortfolioTabContent tabItems={hiddenPortfolioItemsArray} />}
                     </AnimatePresence>
                 </ul>}
-                {!isMobile && <div className={styles.portfolio__wrapper}>
-                    <button className={styles.portfolio__more} onClick={toggleHiddenPortfolioItems}>
-                        <span className={styles.portfolio__more__text}>
-                            {hiddenPortfolioItems ? 'Свернуть': 'Показать еще проекты'}
-                        </span>
-                        <span className={styles.portfolio__more__border} />
-                    </button>
-                </div>}
+                {/*{!isMobile && <div className={styles.portfolio__wrapper}>*/}
+                {/*    <button className={styles.portfolio__more} onClick={toggleHiddenPortfolioItems}>*/}
+                {/*        <span className={styles.portfolio__more__text}>*/}
+                {/*            {hiddenPortfolioItems ? 'Свернуть': 'Показать еще проекты'}*/}
+                {/*        </span>*/}
+                {/*        <span className={styles.portfolio__more__border} />*/}
+                {/*    </button>*/}
+                {/*</div>}*/}
             </div>
             {isMobile && <div className={styles.portfolio__list__mobile}>
                     <div className={styles.portfolio__list__mobile__container}>

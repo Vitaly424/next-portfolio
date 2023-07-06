@@ -1,7 +1,7 @@
 export const portfolioItems1 = [
     { id: 1, img: '/img/shop-native-js.jpg', link: 'https://senior24.github.io/gitHub-pages-spa-show-js/', title: 'SPA — учебный проект, интернет магазин на нативном js' },
-    { id: 1, img: '/img/qwis.jpg', link: 'https://senior24.github.io/qwis/#', title: 'Qwis — опросник' },
-    { id: 1, img: '/img/budget.jpg', link: 'https://senior24.github.io/github-pages-budget-calculate/', title: 'Бюджетный калькулятор' },
+    { id: 2, img: '/img/qwis.jpg', link: 'https://senior24.github.io/qwis/#', title: 'Qwis — опросник' },
+    { id: 3, img: '/img/budget.jpg', link: 'https://senior24.github.io/github-pages-budget-calculate/', title: 'Бюджетный калькулятор' },
 ];
 
 export const portfolioItems2 = [
