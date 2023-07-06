@@ -14,7 +14,6 @@ const Footer = () => {
                 <span className={styles.footer__border} />
                 <div className={styles.footer__inner}>
                     <div className={styles.footer__left}>
-                        {isMobile725 && <SocialList marginBottom={25} />}
                         <Logo/>
                         <p style={{marginTop: '10px'}} className={styles.footer__copyright}>© 2020-2023 <br />«Виталий»</p>
                     </div>

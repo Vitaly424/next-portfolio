@@ -66,6 +66,10 @@
         font-weight: 400;
         font-size: 18px;
         color: #B7BFD1;
+
+        @media (max-width: 725px) {
+            margin-bottom: 20px;
+        }
     }
 
     &__right {
