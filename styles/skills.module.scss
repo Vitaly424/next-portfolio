@@ -6,6 +6,14 @@
         padding-top: 48px;
     }
 
+    h3 {
+        font-size: 23px;
+    }
+
+    h4 {
+        font-size: 19px;
+    }
+
     &__list {
         list-style-type: none;
         margin: 0;
@@ -36,6 +44,34 @@
         @media all and (max-width: 485px) {
             padding-top: 16px;
         }
+    }
+
+    &__listtwo {
+        li {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        padding: 20px;
+        border-left: none;
+        border-right: none;
+        box-shadow: 0 0 10px 2px #0c798e;
+        background-color: #0f1839;
+    }
+
+    &__qualification {
+        li {
+            padding: 20px;
+            border-left: none;
+            border-right: none;
+            box-shadow: 0 0 10px 2px #0c798e;
+            background-color: #0f1839;
+
+            &:not(:last-child) {
+                margin-bottom: 30px;
+            }
+        }
+
     }
 
     &__item {

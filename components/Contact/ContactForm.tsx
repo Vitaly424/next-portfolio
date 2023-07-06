@@ -33,8 +33,8 @@ const ContactForm = () => {
     return (
         <form onSubmit={sendEmail} className={styles.contact__form} ref={formRef}>
             <ContactInput
-                text="Ф.И.О.*"
-                placeholder="Укажите ваши Ф.И.О."
+                text="Имя"
+                placeholder="Ваше имя"
                 type="text"
                 name='fullName'
             />
@@ -45,15 +45,16 @@ const ContactForm = () => {
                 name='company'
             />
             <ContactInput
-                text="E-mail*"
-                placeholder="Укажите ваш E-mail"
-                type="email"
-                name='email'
+                text="Сообщение"
+                placeholder="Ваше сообщение"
+                type="text"
+                name='company'
             />
+
             <ContactInput
-                text="Телефон*"
-                placeholder="Укажите ваш телефон"
-                type="tel"
+                text="Телефон"
+                placeholder="Ваш телефон"
+                type="text"
                 name='phone'
             />
             <button

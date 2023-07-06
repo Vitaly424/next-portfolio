@@ -49,8 +49,7 @@ const Hero = () => {
                 <div className={styles.hero__inner}>
                     <h1 className={styles.hero__title} ref={heroTitle}>Frontend-разработчик</h1>
                     <div className={styles.hero__description}>
-                        <p>Вы работаете над чем-то великим?</p>
-                        <p>Я с удовольствием помогу вам в этом! Напишите мне письмо и мы начнем проект прямо сейчас!</p>
+                        <p>Сайт портфолио, используется для поиска работы </p>
                     </div>
                     <Link
                         to='contact'

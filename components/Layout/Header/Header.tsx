@@ -8,7 +8,7 @@ import { classNames } from "@/utils/classNames";
 import stylesMenu from '../../../styles/mobileMenu.module.scss';
 
 const Header = () => {
-    const isMobile = useMediaQuery(640);
+    const isMobile = useMediaQuery(846);
     const [menuOpen, setMenuOpen] = useState(false);
 
     const spy = true;
@@ -56,6 +56,21 @@ const Header = () => {
                                 className={stylesNavList.navlist__link}
                             >
                                 Обо мне
+                            </Link>
+                        </li>
+
+                        <li className={crrentMenuItemClass}>
+                            <Link
+                                href="/"
+                                to="experience"
+                                spy={spy}
+                                smooth={smooth}
+                                offset={offset}
+                                duration={duration}
+                                onClick={closeMenu}
+                                className={stylesNavList.navlist__link}
+                            >
+                                Опыт работы
                             </Link>
                         </li>
 

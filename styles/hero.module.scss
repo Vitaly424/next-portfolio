@@ -52,6 +52,10 @@
     }
   }
 
+  &__description {
+    margin-bottom: 20px;
+  }
+
   &__description p {
     margin: 0;
     max-width: 485px;
@@ -98,6 +102,7 @@
   &__btn {
     cursor: pointer;
     font-family: 'Raleway';
+    display: inline-block;
     font-weight: 600;
     font-size: 22px;
     color: #F2F2F2;

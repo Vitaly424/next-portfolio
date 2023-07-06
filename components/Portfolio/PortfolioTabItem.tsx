@@ -9,7 +9,7 @@ interface IPortfolioTabItem {
 
 const PortfolioTabItem = ({ title, imgSrc, link }: IPortfolioTabItem) => (
     <div className={styles.portfolio__list__inner}>
-        <a className={styles.portfolio__list__item__link} href={link}>
+        <a className={styles.portfolio__list__item__link} href={link} target="_blank">
             <img className={styles.portfolio__list__item__img} src={imgSrc} alt={title} />
             <h3 className={styles.portfolio__list__item__title}>{title}</h3>
         </a>

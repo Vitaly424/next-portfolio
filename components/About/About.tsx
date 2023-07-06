@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import ArrowSvg from '../ArrowSvg/ArrowSvg';
 import MainTitle from '../MainTitle/MainTitle';
-import SocialList from './SocialList';
 import styles from '../../styles/about.module.scss';
 import { useMediaQuery } from '../../hooks/index';
 
@@ -17,7 +16,7 @@ const About = () => {
                 <img className={styles.about__img} src="/img/about.png" alt="avatar" />
                 <div className={styles.about__inner}>
                     <h3 className={styles.about__title}>
-                        Виталий Баев
+                        Виталий Баев, 24 года
                         <span className={styles.about__title__border}>
                             <span className={styles.about__title__border__arrow}>
                                 <ArrowSvg />
@@ -27,18 +26,10 @@ const About = () => {
                     </h3>
                     <div className={styles.about__text}>
                         <p>
-                            Расположенный в Хартфорде, штат Коннектикут.
-                            В настоящее время я работаю по совместительству Удаленным младшим веб-разработчиком для Coolor, расположенного в Лас-Вегасе.
-                        </p>
-                        <p>
-                            Я ищу, чтобы взять на себя больше работы и повысить свои навыки в качестве веб-разработчика.
+                            Занимаюсь веб разработкой с 2020 года. Сначала отучился на кинолога, получил среднее профессиональное образование. Но всё таки не стал работать по специальности. Решил попробовать программирование, и мне понравилось, я принял решение полностью уйти в эту сферу. Поступил в Северный (Арктический) федеральный университет, на информационные системы и технологии, на заочную форму обучения, и уже на первых курсах начал искать работу связанную с веб разработкой. На сегодняшний день смог добиться определенных результатов, хочу и дальше развиваться в этой области, добиваться новых достижений и продолжать свой профессиональный путь.
                         </p>
                     </div>
-                    {!isMobile1080 && <SocialList />}
                 </div>
-            </div>
-            <div className="sub-container">
-                {isMobile1080 && <SocialList />}
             </div>
         </section>
     );

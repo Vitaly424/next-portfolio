@@ -1,0 +1,24 @@
+.experience {
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+
+    @media all and (max-width: 800px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__item {
+    padding: 20px;
+    border-left: none;
+    border-right: none;
+    box-shadow: 0 0 10px 2px #0c798e;
+    background-color: #0f1839;
+  }
+
+  &__time {
+    font-size: 17px;
+    opacity: 0.6;
+  }
+}

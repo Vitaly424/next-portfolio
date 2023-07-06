@@ -16,13 +16,9 @@ const Footer = () => {
                     <div className={styles.footer__left}>
                         {isMobile725 && <SocialList marginBottom={25} />}
                         <Logo/>
-                        <p style={{marginTop: '10px'}} className={styles.footer__copyright}>© 2010-2021 <br />«Иван»</p>
+                        <p style={{marginTop: '10px'}} className={styles.footer__copyright}>© 2020-2023 <br />«Виталий»</p>
                     </div>
                     <div className={styles.footer__right}>
-                        <div className={styles.footer__right__top}>
-                            <p className={styles.footer__right__top__text}>Поделитесь сайтом с друзьями:</p>
-                            {!isMobile725 && <SocialList />}
-                        </div>
                         <div className={styles.footer__right__bottom}>
                             <ul className={styles.footer__list}>
                                 <li className={styles.footer__list__item}>
