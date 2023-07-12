@@ -14,7 +14,7 @@ export const portfolioItems2 = [
 ];
 
 export const portfolioItems3 = [
-    // { id: 1, img: '/img/portfolio-img-2.png', link: '#', title: 'Интернет магазин «Цифровой»' },
+    { id: 1, img: '/img/watch-shop.jpg', link: 'https://watch-shop-react-vl6p.vercel.app/', title: 'Интернет магазин Часов' },
     // { id: 2, img: '/img/portfolio-img-3.png', link: '#', title: 'Обучающая платформа «Бризли»' },
     // { id: 3, img: '/img/portfolio-img-1.png', link: '#', title: 'Сайт грузоперевозок «Сервис»' },
     // { id: 4, img: '/img/portfolio-img-2.png', link: '#', title: 'Обучающая платформа «Бризли»' },

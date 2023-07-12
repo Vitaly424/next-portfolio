@@ -32,6 +32,13 @@ const Portfolio = () => {
         setPortfolioTab4(false);
     }
 
+    const handleShowPortfolioItems3 = () => {
+        setPortfolioTab1(false);
+        setPortfolioTab2(false);
+        setPortfolioTab3(true);
+        setPortfolioTab4(false);
+    }
+
     // const handleShowPortfolioItems3 = () => {
     //     setPortfolioTab1(false);
     //     setPortfolioTab2(false);
@@ -49,7 +56,7 @@ const Portfolio = () => {
     const portfolioTabControls = [
         { id: 1, title: 'javaScript', isActive: portfolioTab1, handler: handleShowPortfolioItems1 },
         { id: 2, title: 'Верстка', isActive: portfolioTab2, handler: handleShowPortfolioItems2 },
-        // { id: 3, title: 'Внешний интерфейс', isActive: portfolioTab3, handler: handleShowPortfolioItems3 },
+        { id: 3, title: 'React', isActive: portfolioTab3, handler: handleShowPortfolioItems3 },
         // { id: 4, title: 'Все проекты', isActive: portfolioTab4, handler: handleShowPortfolioItems4 },
     ];
 
